@@ -10,7 +10,7 @@ Used React js to make this portfolio. A clean design with full responsiveness.
 1. JavaScript
 1. React Basic 
 
-## What we are going to Use
+## What Used
 
 - React
 - React Hooks
