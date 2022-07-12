@@ -86,7 +86,7 @@ export default function AboutSection() {
             heading="About Me"
           />
           <PText>
-            I am a junior Front-End Developer. I have serious passion for creating web interfaces and their development. Details about my education or skills you can find in my <a href={pdf} target="_blank" className='aboutSection__link'><strong>CV</strong></a>
+            I am a junior Front-End Developer. I'm keen on creating web interfaces and their developing. To find additional information about me and my education click through to my <a href={pdf} target="_blank" className='aboutSection__link'><strong>CV</strong></a>
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/projects" />

@@ -158,7 +158,7 @@ export default function HeroSection() {
           <div className="hero__border"></div>
           <div className="hero__info">
             <PText>
-              and I'm a front end developer
+              and I'm a Front-End Developer
             </PText>
             <Button btnText="see my works" btnLink="/projects" outline="true" />
           </div>
@@ -194,6 +194,15 @@ export default function HeroSection() {
                     rel="noreferrer"
                   >
                     IG
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/%D0%B1%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD-%D0%B1%D0%B8%D0%B3%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-143bb0231/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    LD
                   </a>
                 </li>
               </ul>

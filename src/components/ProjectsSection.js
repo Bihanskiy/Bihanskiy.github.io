@@ -96,7 +96,7 @@ export default function ProjectsSection() {
               },
               // when window width is >= 1200px
               1200: {
-                slidesPerView: 3,
+                slidesPerView: 2.5,
               },
             }}
           >

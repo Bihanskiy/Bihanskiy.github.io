@@ -32,17 +32,17 @@ export default function ServicesSection() {
           <ServicesSectionItem
             icon={<MdDesktopMac />}
             title="responsive"
-            desc="My layout looks good on all devices. It response to different screen sizes; from 320px(small devices) to 1920px(widescreen monitors)."
+            desc="My layout fits all devices. It responses to any screen resolution; from 320px(small mobile devices) to 1920px(widescreen monitors)."
           />
           <ServicesSectionItem
             icon={<MdOutlineStar />}
-            title="fast"
-            desc="Fast load times my highest priority. I use different best practices for image optimization, minimization, compression, code splitting, etc."
+            title="speed"
+            desc="Fast loading is my main priority. I use the most updated technics for image optimization, minimization, compression, code splitting, etc."
           />
           <ServicesSectionItem
             icon={<MdCode />}
             title="code quality"
-            desc="Scalable, structured, clean and well organized code. This is one of my main goals in the process of development. For this purpose I use DRY Principle and best practices  for writing super readable code. "
+            desc="Clean, scalable, structured, scalable and well organized are the main developing criteria of my code. For this purpose I use DRY Principle and the best practices for writing super readable code."
           />
         </div>
       </div>

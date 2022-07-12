@@ -123,6 +123,10 @@ export default function Footer() {
                 title: 'Instagram',
                 path: 'https://www.instagram.com/_bihanskiy_/',
               },
+              {
+                title: 'LinkedIn',
+                path: 'https://www.linkedin.com/in/%D0%B1%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD-%D0%B1%D0%B8%D0%B3%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-143bb0231/',
+              },
             ]}
           />
         </div>
