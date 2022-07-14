@@ -33,6 +33,9 @@ flex: 0 0 auto;
     font-size: 1.5rem;
     line-height: 1.3em;
     margin: 15px 0px;   
+    a {
+        overflow-wrap: break-word;
+    }
     }   
 .modal__controlls {
     padding: 15px 0px;
