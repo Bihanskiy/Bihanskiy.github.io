@@ -15,7 +15,7 @@ const ProjectItemStyles = styled.div`
     transition: 0.5s ease opacity;
     cursor: pointer;
     :hover{
-      opacity: 0.5;
+      opacity: 0.7;
     }
     img {
       height: 100%;
