@@ -13,6 +13,10 @@ const ButtonStyle = styled.div`
     border-radius: 8px;
     display: inline-block;
     color: ${(props) => (props.outline ? 'var(--gary-1)' : 'black')};
+    transition: 0.3s ease all;
+    :hover {
+      transform: scale(1.05);
+    }
   }
   @media only screen and (max-width: 768px) {
     .button {

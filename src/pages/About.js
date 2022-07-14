@@ -80,6 +80,16 @@ const AboutPageStyles = styled.div`
     }
   }
 `;
+const Emoji = props => (
+  <span
+    className="emoji"
+    role="img"
+    aria-label={props.label ? props.label : ""}
+    aria-hidden={props.label ? "false" : "true"}
+  >
+    {props.symbol}
+  </span>
+)
 
 export default function About() {
   return (
@@ -94,7 +104,7 @@ export default function About() {
               <h2 className="about__heading">A junior Front-End Developer</h2>
               <div className="about__info">
                 <PText>
-                ... I'm able to work efficiently both individually and in a team. Due to my ingenuity and strong analytical thinking I can find simple solutions to complex problems. I am an “eternal student” so can learn new things easily. I am eager to be a highly qualified specialist and always improve my skills.
+                  ... I'm able to work efficiently both individually and in a team. Due to my ingenuity and strong analytical thinking I can find simple solutions to complex problems. I am an “eternal student” so can learn new things easily. I am eager to be a highly qualified specialist and always improve my skills... To find more information <Emoji label="cool" symbol="👇" /><Emoji label="cool" symbol="😎" />
                 </PText>
               </div>
               <a href={pdf} target="_blank" className='about__link'><strong>Download CV</strong></a>
