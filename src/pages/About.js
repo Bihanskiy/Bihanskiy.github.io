@@ -101,7 +101,7 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Bohdan Bihanskyi</span>
               </p>
-              <h2 className="about__heading">A junior Front-End Developer</h2>
+              <h2 className="about__heading">A Junior Front-End Developer</h2>
               <div className="about__info">
                 <PText>
                   ... I'm able to work efficiently both individually and in a team. Due to my ingenuity and strong analytical thinking I can find simple solutions to complex problems. I am an “eternal student” so can learn new things easily. I am eager to be a highly qualified specialist and always improve my skills... To find more information <Emoji label="cool" symbol="👇" /><Emoji label="cool" symbol="😎" />
