@@ -1,10 +1,21 @@
 import { v4 as uuidv4 } from 'uuid';
-import EmployeersCount from '../images/EmployeersCount.PNG'
-import MarvelSetvice from '../images/MarvelService.PNG'
-import ToDoList from '../images/toDoList.PNG'
+import EmployeersCount from '../images/EmployeersCount.PNG';
+import MarvelSetvice from '../images/MarvelService.PNG';
+import ToDoList from '../images/toDoList.PNG';
 import LandingPage from '../images/LandingPagePNG.PNG';
+import CurrencyExchange from '../images/currency-exchange.PNG';
 
 const projects = [
+  {
+    id: uuidv4(),
+    name: 'Currency Converter',
+    img: CurrencyExchange,
+    description: 'A real time currency converter using api in react',
+    technologies: 'HTML, CSS, SCSS, JavaScript, React, API',
+    tools: 'Webpack, NPM, Git',
+    url: 'https://bihanskiy.github.io/currency-exchange-calculator/',
+    source: 'https://github.com/Bihanskiy/currency-exchange-calculator',
+  },
   {
     id: uuidv4(),
     name: 'EDA',
@@ -32,8 +43,8 @@ const projects = [
     description: 'In my opinion, a todo application is the best practical task for beginner. It is perfect for a short code review.',
     technologies: 'HTML, CSS, SCSS, Vanilla JS',
     tools: 'Gulp NPM, Git',
-    url: 'https://bihanskiy.github.io/todolist/',
-    source: 'https://github.com/Bihanskiy/todolist',
+    url: 'https://bihanskiy.github.io/todolist-vanilaJS/',
+    source: 'https://github.com/Bihanskiy/todolist-vanilaJS',
   },
   {
     id: uuidv4(),
@@ -42,8 +53,8 @@ const projects = [
     description: 'This modern landing page is made of Figma layout. The possibility of usage such dynamic tools as Swiper.js and Gallery has been implemented in the project. The site is responsive as well. Interaction with the client is the main goal of the project.',
     technologies: 'HTML, CSS, SCSS, Vanilla JS, Mustache',
     tools: 'Gulp, NPM, Git, Figma',
-    url: 'https://bihanskiy.github.io/eCommerce-landing-page/',
-    source: 'https://github.com/Bihanskiy/eCommerce-landing-page',
+    url: 'https://bihanskiy.github.io/landing-furniture-js/',
+    source: 'https://github.com/Bihanskiy/landing-furniture-js',
   },
 ];
 
