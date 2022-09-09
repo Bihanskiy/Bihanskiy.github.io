@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.2f60c021.chunk.js",
-    "main.js.map": "/static/js/main.2f60c021.chunk.js.map",
+    "main.js": "/static/js/main.b12c62ae.chunk.js",
+    "main.js.map": "/static/js/main.b12c62ae.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.867d5421.js",
     "runtime-main.js.map": "/static/js/runtime-main.867d5421.js.map",
     "static/css/2.fe8d9bf6.chunk.css": "/static/css/2.fe8d9bf6.chunk.css",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "static/css/2.fe8d9bf6.chunk.css.map": "/static/css/2.fe8d9bf6.chunk.css.map",
     "static/js/2.d121a06e.chunk.js.LICENSE.txt": "/static/js/2.d121a06e.chunk.js.LICENSE.txt",
-    "static/media/CV.8395cf00.pdf": "/static/media/CV.8395cf00.pdf",
+    "static/media/CV.aa02cd51.pdf": "/static/media/CV.aa02cd51.pdf",
     "static/media/Chat.a053f7a9.PNG": "/static/media/Chat.a053f7a9.PNG",
     "static/media/EmployeersCount.b3e2efae.PNG": "/static/media/EmployeersCount.b3e2efae.PNG",
     "static/media/LandingPagePNG.90bd22a6.PNG": "/static/media/LandingPagePNG.90bd22a6.PNG",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.867d5421.js",
     "static/css/2.fe8d9bf6.chunk.css",
     "static/js/2.d121a06e.chunk.js",
-    "static/js/main.2f60c021.chunk.js"
+    "static/js/main.b12c62ae.chunk.js"
   ]
 }
