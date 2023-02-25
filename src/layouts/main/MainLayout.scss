@@ -1,0 +1,10 @@
+@import '../../styles/tools/tools';
+
+.main-wrapper {
+  @extend %flex-container;
+  min-height: 100vh;
+}
+
+.main {
+  @extend %flex-container;
+}

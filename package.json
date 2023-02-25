@@ -7,6 +7,10 @@
 		"@testing-library/jest-dom": "^5.11.10",
 		"@testing-library/react": "^11.2.5",
 		"@testing-library/user-event": "^12.8.3",
+		"@types/jest": "^29.4.0",
+		"@types/node": "^18.14.1",
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
 		"a11y-react-emoji": "^1.2.0",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
@@ -15,8 +19,10 @@
 		"react-router-dom": "^5.2.0",
 		"react-scripts": "4.0.3",
 		"react-transition-group": "^4.4.1",
+		"sass": "^1.58.3",
 		"styled-components": "^5.2.2",
 		"swiper": "^6.5.4",
+		"typescript": "^4.9.5",
 		"uuid": "^8.3.2",
 		"web-vitals": "^1.1.1"
 	},
@@ -41,6 +47,8 @@
 		]
 	},
 	"devDependencies": {
+		"@types/react-router-dom": "^5.3.3",
+		"file-loader": "^6.2.0",
 		"gh-pages": "^4.0.0",
 		"prettier": "^2.1.1"
 	}

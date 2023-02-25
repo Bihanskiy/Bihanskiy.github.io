@@ -4,10 +4,12 @@ import App from './App';
 import GlobalStyles from './styles/GlobalStyle';
 import Typography from './styles/Typography';
 
+import './styles/layout/main.scss';
+
 ReactDOM.render(
   <>
-    <GlobalStyles />
-    <Typography />
+    {/* <GlobalStyles /> */}
+    {/* <Typography /> */}
     <App />
   </>,
   document.getElementById('root')

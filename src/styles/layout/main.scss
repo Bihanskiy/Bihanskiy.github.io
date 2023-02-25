@@ -1,0 +1,36 @@
+@import "base";
+@import "../tools/tools";
+
+.flex-container {
+  @extend %flex-container;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main-title {
+  font-size: 24px;
+  margin: 20px 0 40px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn-default {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  color: inherit;
+}
+
+.btn-group {
+  button,
+  a {
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+}
