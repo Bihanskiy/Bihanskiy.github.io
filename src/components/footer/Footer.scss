@@ -1,0 +1,48 @@
+@import "../../styles/tools/tools";
+
+.footer {
+  padding-top: 80px;
+  background-color: #151823;
+  color: #666873;
+
+  &__container {
+    padding: 0 1.5rem;
+  }
+
+  &__top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    row-gap: 2rem;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    @extend %flex-dc;
+    gap: 2rem;
+  }
+
+  &__list-item {
+    list-style: none;
+  }
+
+  &__list-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.25s;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  &__bottom {
+    padding: 20px 0;
+    padding-top: 50px;
+  }
+}

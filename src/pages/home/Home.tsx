@@ -2,28 +2,22 @@ import React from "react";
 
 import './Home.scss';
 
+import AboutImg from '../../assets/images/about-sec-img.png';
+import AboutSection from "../../components/home/aboutSection/AboutSection";
+import InteractionButton from "../../components/buttons/interactionButton/InteractionButton";
+import DemonstrationSection from "../../components/home/demonstrationSection/DemonstrationSection";
+import CasesSection from "../../components/home/casesSection/CasesSection";
+import ProjectsSection from "../../components/home/projectsSection/ProjectsSection";
+
 const Home = () => {
 
   return (
-    <section className="demonstration">
-      <div className="container">
-        <div className="demonstration__content content">
-          <h4 className="content__hello">Hello, my name is</h4>
-          <h1 className="content__name">Bohdan Bihanskyi</h1>
-          <h4 className="content__profession">and I'm a Front-end Developer</h4>
-        </div>
-        <div className="demonstration__background">
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-      </div >
-    </section>
+    <>
+      <DemonstrationSection />
+      <AboutSection />
+      <CasesSection />
+      <ProjectsSection />
+    </>
   )
 }
 

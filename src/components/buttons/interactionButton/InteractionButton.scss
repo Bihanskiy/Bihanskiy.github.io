@@ -1,0 +1,44 @@
+@import "../../../styles/tools/tools";
+
+.interaction-button {
+  position: relative;
+  @extend %flex-ac;
+  background: none;
+  border: none;
+  padding: 18px;
+  cursor: pointer;
+  color: #fff;
+  font-size: $text-size;
+  font-weight: 500;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    translate: calc(100% + 53px) -50%;
+    width: 55px;
+    height: 55px;
+    background: $active-color;
+    border-radius: 50px;
+    transition: translate 0.25s 0.25s cubic-bezier(0, 0, 0.5, 2), width 0.25s cubic-bezier(0, 0, 0.5, 2);
+  }
+
+  &:hover::before {
+    width: 100%;
+    translate: -18px -50%;
+    transition: translate 0.25s cubic-bezier(0, 0, 0.5, 2), width 0.25s 0.25s cubic-bezier(0, 0, 0.5, 2);
+  }
+
+  i {
+    padding-top: 4px;
+    margin-left: 5px;
+    transition: translate 0.25s 0.4s cubic-bezier(0, 0, 0.5, 2);
+  }
+
+  &:hover {
+    i {
+      translate: 3px 0;
+    }
+  }
+}

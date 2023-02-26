@@ -1,0 +1,27 @@
+@import "../../../styles/tools/tools";
+
+.cases {
+  padding-top: $section-distance;
+
+  &__header {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    h2 {
+      text-align: center;
+      font-size: $title-size;
+      font-weight: 600;
+    }
+  }
+
+  &__body {
+    @extend %flex-ac;
+    gap: 0px 20px;
+    justify-content: space-between;
+    @media only screen and (max-width: 1000px) {
+      flex-wrap: wrap;
+    }
+    @media only screen and (max-width: 768px) {
+      justify-content: center;
+    }
+  }
+}
