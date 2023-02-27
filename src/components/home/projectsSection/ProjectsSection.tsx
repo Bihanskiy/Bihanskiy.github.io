@@ -4,7 +4,9 @@ import './ProjectsSection.scss';
 
 import { RiArrowRightLine } from "react-icons/ri";
 import RatingPro from '../../../assets/images/projects/ratingPro.png';
+import ProjectCard from "../../cards/projectCard/ProjectCard";
 
+import projects from "../../../assets/data/projects";
 
 const ProjectsSection = () => {
 
@@ -15,28 +17,23 @@ const ProjectsSection = () => {
         <h2 className="header-projects__title">Projects</h2>
       </div>
       <div className="projects-wrapper">
-        <div className="projects-item">
-          <a className="projects-item__action">
-            <div className="c-wrapper"></div>
-            <div className="main-img">
-              <img
-                src={RatingPro}
-                alt="RatingPro project image"
-                className="main-img__item"
-              />
-            </div>
-            <div className="overlay">
-              <div className="overlay-text">
-                <span className="project-subtitle">Freelancing platform</span>
-                <div className="project-title">Rating Pro</div>
-              </div>
-              <div className="project-more">
-                <span className="project-more__text">see project</span>
-                <RiArrowRightLine style={{ fontSize: "22px" }} />
-              </div>
-            </div>
-          </a>
-        </div>
+        {projects.map((project, index) => {
+          if (index < 5) {
+            return (
+              <React.Fragment key={project.id}>
+                <ProjectCard
+                  name={project.name}
+                  title={project.title}
+                  type={project.type}
+                  image={project.img}
+                />
+              </React.Fragment>
+            )
+          }
+
+          return null;
+        })}
+
         <div className="projects-item">
           <a className="projects-item__action">
             <span className="c-wrapper__more">
@@ -50,18 +47,6 @@ const ProjectsSection = () => {
               <RiArrowRightLine style={{ fontSize: "25px" }} />
             </span>
           </a>
-        </div>
-        <div className="projects-item">
-
-        </div>
-        <div className="projects-item">
-
-        </div>
-        <div className="projects-item">
-
-        </div>
-        <div className="projects-item">
-
         </div>
       </div>
     </section>

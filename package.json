@@ -48,6 +48,7 @@
 	},
 	"devDependencies": {
 		"@types/react-router-dom": "^5.3.3",
+		"@types/uuid": "^9.0.1",
 		"file-loader": "^6.2.0",
 		"gh-pages": "^4.0.0",
 		"prettier": "^2.1.1"

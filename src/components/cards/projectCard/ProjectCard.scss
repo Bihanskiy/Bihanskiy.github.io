@@ -1,0 +1,122 @@
+@import "../../../styles/tools/tools";
+
+.projects-item {
+  position: relative;
+  overflow: hidden;
+  background-color: #effaf7;
+  height: 400px;
+
+  &__action {
+    cursor: pointer;
+  }
+
+  .c-wrapper {
+    opacity: 1;
+    transform: scale(1);
+    transition: all 0.3s;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-img {
+    @extend %cent;
+    text-align: center;
+    z-index: 1;
+
+    &__item {
+      opacity: 1;
+      transform: scale(1);
+      transition: all 0.3s ease-in-out;
+      height: 220px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      object-fit: contain;
+      max-width: 100%;
+    }
+  }
+
+  .overlay {
+    @extend %flex-ac;
+    justify-content: space-around;
+    gap: 10px;
+    top: 80%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+
+    &-text {
+      @extend %flex-dc;
+      gap: 5px;
+    }
+    .project-subtitle {
+      font-weight: 500;
+    }
+
+    .project-title {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .project-more {
+      @extend %flex-ac;
+      gap: 5px;
+
+      &__text {
+        font-weight: 500;
+      }
+    }
+  }
+
+  &:hover {
+    .c-wrapper {
+      opacity: 0.85;
+      transform: scale(1.1);
+    }
+
+    .main-img {
+      &__item {
+        opacity: 0.85;
+        transform: scale(0.8);
+      }
+    }
+  }
+}
+
+.RatingPro-card {
+  .c-wrapper {
+    background: url(../../../assets/images/projects/gray-background.png) no-repeat 50% 50%;
+  }
+}
+
+.YouFine-card {
+  background-color: $remove-color !important;
+  .c-wrapper {
+    background: url(../../../assets/images/projects/pink-background.png) no-repeat 50% 50%;
+  }
+}
+
+.USShip-card {
+  background-color: #b8d5ed !important;
+  .c-wrapper {
+    background: url(../../../assets/images/projects/red-background.png) no-repeat 50% 50%;
+  }
+}
+
+.Chat-card {
+  background-color: #00d6dc !important;
+  .c-wrapper {
+    background: url(../../../assets/images/projects/blue-background.png) no-repeat 50% 50%;
+  }
+}
+
+.CurrencyConverter-card {
+  background-color: #347df1 !important;
+  .c-wrapper {
+    background: url(../../../assets/images/projects/dark-blue-background.png) no-repeat 50% 50%;
+  }
+}

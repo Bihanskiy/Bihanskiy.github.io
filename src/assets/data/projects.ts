@@ -1,47 +1,45 @@
 import { v4 as uuidv4 } from 'uuid';
-import EmployeersCount from '../images/EmployeersCount.PNG';
-import MarvelSetvice from '../images/MarvelService.PNG';
-import ToDoList from '../images/toDoList.PNG';
-import LandingPage from '../images/LandingPagePNG.PNG';
-import CurrencyExchange from '../images/currency-exchange.PNG';
-import Chat from "../images/Chat.PNG"
-import USSihipLanding from "../images/usShipLanding.PNG"
+import EmployeersCount from '../images/projects/EmployeersCount.png';
+import MarvelSetvice from '../images/projects/MarvelService.png';
+import ToDoList from '../images/projects/toDoList.png';
+import LandingPage from '../images/projects/LandingPagePNG.png';
+import CurrencyExchange from '../images/projects/currency-exchange.png';
+import Chat from "../images/projects/Chat.png";
+import USSihipLanding from "../images/projects/usShipLanding.png";
+import RatingPro from '../images/projects/ratingPro.png';
+import YouFine from '../images/projects/FineService.png';
 
 
 const projects = [
   {
     id: uuidv4(),
-    name: 'Chat',
-    img: Chat,
+    name: 'RatingPro',
+    title: 'Rating Pro',
+    type: "Freelancing platform",
+    img: RatingPro,
     description: 'The user can send the message in the chat and receive an automatic response in 10-15 seconds. The Chuck Norris API is used to generate an automatic response, namely random jokes.',
     technologies: 'HTML, CSS, SCSS, JavaScript, React, API, CSSTransition',
     tools: 'Webpack, NPM, Git',
-    url: 'https://bihanskiy.github.io/react-chat/',
-    source: 'https://github.com/Bihanskiy/react-chat',
+    url: '',
+    source: '',
   },
   {
     id: uuidv4(),
-    name: 'Currency Converter',
-    img: CurrencyExchange,
-    description: 'A real time currency converter using api in react',
-    technologies: 'HTML, CSS, SCSS, JavaScript, React, API',
+    name: 'YouFine',
+    title: 'You Fine',
+    type: "Freelancing platform",
+    img: YouFine,
+    description: 'The user can send the message in the chat and receive an automatic response in 10-15 seconds. The Chuck Norris API is used to generate an automatic response, namely random jokes.',
+    technologies: 'HTML, CSS, SCSS, JavaScript, React, API, CSSTransition',
     tools: 'Webpack, NPM, Git',
-    url: 'https://bihanskiy.github.io/currency-exchange-calculator/',
-    source: 'https://github.com/Bihanskiy/currency-exchange-calculator',
+    url: 'https://youfine.vercel.app/',
+    source: '',
   },
   {
     id: uuidv4(),
-    name: 'Marvel Service',
-    img: MarvelSetvice,
-    description: 'Marvel Service is an application where you can view Marvel characters and the comics with their participation.',
-    technologies: 'HTML, CSS, SCSS, React, React Router, Marvel Comics API',
-    tools: 'Webpack, NPM, Git, Figma',
-    url: 'https://bihanskiy.github.io/marvel-portal/',
-    source: 'https://github.com/Bihanskiy/marvel-portal',
-  },
-  {
-    id: uuidv4(),
-    name: 'US ship landing page',
+    name: 'USShip',
+    title: 'Ship landing page',
+    type: "Freelancing platform",
     img: USSihipLanding,
     description: 'Modern landing page',
     technologies: 'HTML, CSS, SCSS, JavaScript',
@@ -51,7 +49,45 @@ const projects = [
   },
   {
     id: uuidv4(),
+    name: 'Chat',
+    title: 'Chat',
+    type: "Freelancing platform",
+    img: Chat,
+    description: 'The user can send the message in the chat and receive an automatic response in 10-15 seconds. The Chuck Norris API is used to generate an automatic response, namely random jokes.',
+    technologies: 'HTML, CSS, SCSS, JavaScript, React, API, CSSTransition',
+    tools: 'Webpack, NPM, Git',
+    url: 'https://bihanskiy.github.io/react-chat/',
+    source: 'https://github.com/Bihanskiy/react-chat',
+  },
+  {
+    id: uuidv4(),
+    name: 'CurrencyConverter',
+    title: 'Currency Converter',
+    type: "Freelancing platform",
+    img: CurrencyExchange,
+    description: 'A real time currency converter using api in react',
+    technologies: 'HTML, CSS, SCSS, JavaScript, React, API',
+    tools: 'Webpack, NPM, Git',
+    url: 'https://bihanskiy.github.io/currency-exchange-calculator/',
+    source: 'https://github.com/Bihanskiy/currency-exchange-calculator',
+  },
+  {
+    id: uuidv4(),
+    name: 'MarvelService',
+    title: 'Marvel Service',
+    type: "Freelancing platform",
+    img: MarvelSetvice,
+    description: 'Marvel Service is an application where you can view Marvel characters and the comics with their participation.',
+    technologies: 'HTML, CSS, SCSS, React, React Router, Marvel Comics API',
+    tools: 'Webpack, NPM, Git, Figma',
+    url: 'https://bihanskiy.github.io/marvel-portal/',
+    source: 'https://github.com/Bihanskiy/marvel-portal',
+  },
+  {
+    id: uuidv4(),
     name: 'EDA',
+    title: 'EDA',
+    type: "Freelancing platform",
     img: EmployeersCount,
     description: 'Employees data arrangement (EDA) web app. There are the features of changing and filtering the employees data in the app.',
     technologies: 'HTML, CSS, SCSS, React',
@@ -62,6 +98,8 @@ const projects = [
   {
     id: uuidv4(),
     name: 'ToDoList',
+    title: 'ToDoList',
+    type: "Freelancing platform",
     img: ToDoList,
     description: 'In my opinion, a todo application is the best practical task for beginner. It is perfect for a short code review.',
     technologies: 'HTML, CSS, SCSS, Vanilla JS',
@@ -71,7 +109,9 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: "Landing Page Furniture",
+    name: "Furniture",
+    title: "Landing Page Furniture",
+    type: "Freelancing platform",
     img: LandingPage,
     description: 'This modern landing page is made of Figma layout. The possibility of usage such dynamic tools as Swiper.js and Gallery has been implemented in the project. The site is responsive as well. Interaction with the client is the main goal of the project.',
     technologies: 'HTML, CSS, SCSS, Vanilla JS, Mustache',
