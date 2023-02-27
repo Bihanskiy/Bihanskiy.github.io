@@ -3,12 +3,14 @@ import React from "react";
 import './ProjectsSection.scss';
 
 import { RiArrowRightLine } from "react-icons/ri";
-import RatingPro from '../../../assets/images/projects/ratingPro.png';
 import ProjectCard from "../../cards/projectCard/ProjectCard";
 
 import projects from "../../../assets/data/projects";
+import { useCustomNavigate } from "../../../hooks";
 
 const ProjectsSection = () => {
+  const navigate = useCustomNavigate();
+
 
   return (
     <section className="projects">
@@ -22,6 +24,7 @@ const ProjectsSection = () => {
             return (
               <React.Fragment key={project.id}>
                 <ProjectCard
+                  id={project.id}
                   name={project.name}
                   title={project.title}
                   type={project.type}
@@ -35,7 +38,10 @@ const ProjectsSection = () => {
         })}
 
         <div className="projects-item">
-          <a className="projects-item__action">
+          <a
+            className="projects-item__action"
+            onClick={() => navigate("/projects")}
+          >
             <span className="c-wrapper__more">
               <span></span>
               <span></span>

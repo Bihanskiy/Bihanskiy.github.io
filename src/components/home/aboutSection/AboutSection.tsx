@@ -5,7 +5,12 @@ import RoundedButton from "../../buttons/roundedButton/RoundedButton";
 
 import './AboutSection.scss';
 
+import { useCustomNavigate } from "../../../hooks";
+
+
 const AboutSection = () => {
+  const navigate = useCustomNavigate();
+
   return (
     <section className="about">
       <div className="container about__container">
@@ -25,10 +30,16 @@ const AboutSection = () => {
           </div>
           <div className="story__actions actions">
             <div className="actions__works">
-              <RoundedButton name={"Works"} />
+              <RoundedButton
+                name="Works"
+                handleClick={() => navigate("/projects")}
+              />
             </div>
             <div className="actions__more">
-              <RoundedButton name={"Read more"} />
+              <RoundedButton
+                name="Read more"
+                handleClick={() => navigate("/about")}
+              />
             </div>
             <div></div>
           </div>

@@ -8,6 +8,7 @@ import Chat from "../images/projects/Chat.png";
 import USSihipLanding from "../images/projects/usShipLanding.png";
 import RatingPro from '../images/projects/ratingPro.png';
 import YouFine from '../images/projects/FineService.png';
+import RatingProProject from '../images/projects/ratingProProject.png';
 
 
 const projects = [
@@ -17,6 +18,7 @@ const projects = [
     title: 'Rating Pro',
     type: "Freelancing platform",
     img: RatingPro,
+    projectImg: RatingProProject,
     description: 'The user can send the message in the chat and receive an automatic response in 10-15 seconds. The Chuck Norris API is used to generate an automatic response, namely random jokes.',
     technologies: 'HTML, CSS, SCSS, JavaScript, React, API, CSSTransition',
     tools: 'Webpack, NPM, Git',
@@ -29,6 +31,7 @@ const projects = [
     title: 'You Fine',
     type: "Freelancing platform",
     img: YouFine,
+    projectImg: YouFine,
     description: 'The user can send the message in the chat and receive an automatic response in 10-15 seconds. The Chuck Norris API is used to generate an automatic response, namely random jokes.',
     technologies: 'HTML, CSS, SCSS, JavaScript, React, API, CSSTransition',
     tools: 'Webpack, NPM, Git',
@@ -41,6 +44,7 @@ const projects = [
     title: 'Ship landing page',
     type: "Freelancing platform",
     img: USSihipLanding,
+    projectImg: USSihipLanding,
     description: 'Modern landing page',
     technologies: 'HTML, CSS, SCSS, JavaScript',
     tools: 'Webpack, Galp, NPM, Git',
@@ -53,6 +57,7 @@ const projects = [
     title: 'Chat',
     type: "Freelancing platform",
     img: Chat,
+    projectImg: Chat,
     description: 'The user can send the message in the chat and receive an automatic response in 10-15 seconds. The Chuck Norris API is used to generate an automatic response, namely random jokes.',
     technologies: 'HTML, CSS, SCSS, JavaScript, React, API, CSSTransition',
     tools: 'Webpack, NPM, Git',
@@ -65,6 +70,7 @@ const projects = [
     title: 'Currency Converter',
     type: "Freelancing platform",
     img: CurrencyExchange,
+    projectImg: CurrencyExchange,
     description: 'A real time currency converter using api in react',
     technologies: 'HTML, CSS, SCSS, JavaScript, React, API',
     tools: 'Webpack, NPM, Git',
@@ -77,6 +83,7 @@ const projects = [
     title: 'Marvel Service',
     type: "Freelancing platform",
     img: MarvelSetvice,
+    projectImg: MarvelSetvice,
     description: 'Marvel Service is an application where you can view Marvel characters and the comics with their participation.',
     technologies: 'HTML, CSS, SCSS, React, React Router, Marvel Comics API',
     tools: 'Webpack, NPM, Git, Figma',
@@ -89,6 +96,7 @@ const projects = [
     title: 'EDA',
     type: "Freelancing platform",
     img: EmployeersCount,
+    projectImg: EmployeersCount,
     description: 'Employees data arrangement (EDA) web app. There are the features of changing and filtering the employees data in the app.',
     technologies: 'HTML, CSS, SCSS, React',
     tools: 'Webpack, NPM, Git',
@@ -101,6 +109,7 @@ const projects = [
     title: 'ToDoList',
     type: "Freelancing platform",
     img: ToDoList,
+    projectImg: ToDoList,
     description: 'In my opinion, a todo application is the best practical task for beginner. It is perfect for a short code review.',
     technologies: 'HTML, CSS, SCSS, Vanilla JS',
     tools: 'Gulp NPM, Git',
@@ -113,6 +122,7 @@ const projects = [
     title: "Landing Page Furniture",
     type: "Freelancing platform",
     img: LandingPage,
+    projectImg: LandingPage,
     description: 'This modern landing page is made of Figma layout. The possibility of usage such dynamic tools as Swiper.js and Gallery has been implemented in the project. The site is responsive as well. Interaction with the client is the main goal of the project.',
     technologies: 'HTML, CSS, SCSS, Vanilla JS, Mustache',
     tools: 'Gulp, NPM, Git, Figma',

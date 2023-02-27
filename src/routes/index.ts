@@ -1,6 +1,9 @@
 import React, { lazy, LazyExoticComponent } from 'react';
 
 const MainPage = lazy(() => import('../pages/home/Home'));
+const AboutPage = lazy(() => import('../pages/about/About'));
+const ProjectsPage = lazy(() => import('../pages/projects/Projects'));
+const ContactPage = lazy(() => import('../pages/contact/Contact'));
 
 export interface IRoute {
   path: string;
@@ -20,19 +23,19 @@ export const AboutRoute: IRoute = {
   path: '/about',
   getPath: () => '/about',
   exact: true,
-  component: MainPage,
+  component: AboutPage,
 };
 
 export const ProjectsRoute: IRoute = {
   path: '/projects',
   getPath: () => `/projects`,
   exact: true,
-  component: MainPage,
+  component: ProjectsPage,
 };
 
 export const ContactRoute: IRoute = {
   path: '/contact',
   getPath: () => '/contact',
   exact: true,
-  component: MainPage,
+  component: ContactPage,
 };
