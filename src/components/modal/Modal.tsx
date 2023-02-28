@@ -46,7 +46,7 @@ export const Modal: FunctionComponent<ModalProps> = ({
         aria-labelledby={headerText}
         tabIndex={-1}
         role="dialog"
-        className="wrapper"
+        className="modal-wrapper"
       >
         <div className="styled-modal">
           <div className="header">

@@ -1,0 +1,42 @@
+@import "../../styles/tools/tools";
+
+.table {
+  &__header {
+    margin-bottom: 20px;
+    h6 {
+      font-size: $title-size;
+      font-weight: 600;
+    }
+  }
+
+  &__body {
+    .row {
+      @extend %flex-ac;
+      gap: 15px;
+      flex-wrap: wrap;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+
+      &__title {
+        min-width: 180px;
+        p {
+          font-size: 22px;
+          font-weight: 500;
+        }
+      }
+
+      .content {
+        @extend %flex-ac;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        &__item {
+          background-color: rgba(33, 150, 243, 0.08);
+          border-radius: 7px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
