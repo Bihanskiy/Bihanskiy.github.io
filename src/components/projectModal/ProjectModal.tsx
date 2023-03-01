@@ -48,9 +48,13 @@ const ProjectModal: FC<ProjectModalPropsType> = ({ id }) => {
               <span className="tools__title">
                 Source:
               </span>
-              <span className="tools__subtitle">
+              <a
+                href={project.source}
+                target="_blank"
+                className="tools__subtitle subtitle-link"
+              >
                 {project.source}
-              </span>
+              </a>
             </div>
           }
         </div>

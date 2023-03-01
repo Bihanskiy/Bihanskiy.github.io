@@ -38,6 +38,10 @@ const Header = () => {
     if (burgerRef.current && navRef.current) {
       burgerRef.current.classList.toggle("clicked");
       navRef.current.classList.toggle("show");
+
+      navRef.current.classList.contains("show")
+        ? (document.body.style.overflow = "hidden")
+        : (document.body.style.overflow = "unset");
     }
   }
 
@@ -72,7 +76,10 @@ const Header = () => {
           >
             <span></span>
           </div>
-          <nav ref={navRef} className="burger-nav">
+          <nav
+            ref={navRef}
+            className="burger-nav"
+          >
             <ul className="burger-nav__list">
               {navigation.map((link) => (
                 <li key={link.path} className="burger-nav__item">

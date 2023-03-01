@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 500;
+  z-index: 1500;
 }
 
 .modal-wrapper {
@@ -13,7 +13,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 700;
+  z-index: 1700;
   width: inherit;
   outline: 0;
 
@@ -29,7 +29,7 @@
     border-radius: 8px 8px 0 0;
     display: flex;
     justify-content: space-between;
-    padding: 0.3rem;
+    padding: 0.5rem 0.4rem;
 
     &__text {
       color: #fff;
@@ -54,5 +54,18 @@
     height: 75vh;
     overflow-x: hidden;
     overflow-y: auto;
+
+    &::-webkit-scrollbar-track {
+      background-color: #ffffff;
+    }
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      border-radius: 7px;
+      background-color: rgba(184, 185, 188, 0.733);
+    }
   }
 }

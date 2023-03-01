@@ -58,6 +58,14 @@
       font-weight: 400;
       line-height: 130%;
     }
+
+    .subtitle-link {
+      border-radius: 5px;
+      padding: 5px;
+      &:hover {
+        background-color: $secondary-color;
+      }
+    }
   }
 
   &__actions {

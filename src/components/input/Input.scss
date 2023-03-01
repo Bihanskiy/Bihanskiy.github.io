@@ -1,0 +1,50 @@
+@import "../../styles/tools/tools";
+
+.search-input {
+  div {
+    display: inline-block;
+    position: relative;
+
+    &:after {
+      content: "";
+      background: $active-color;
+      width: 4px;
+      height: 20px;
+      position: absolute;
+      top: 36px;
+      right: 1px;
+      transform: rotate(140deg);
+    }
+
+    input {
+      color: $main-color;
+      font-size: 16px;
+      background: transparent;
+      width: 43px;
+      height: 43px;
+      padding: 10px;
+      border: solid 3px $active-color;
+      outline: none;
+      border-radius: 35px;
+      transition: width 0.5s;
+
+      &::placeholder {
+        color: $placeholder-color;
+        opacity: 0;
+        transition: opacity 150ms ease-out;
+      }
+
+      &:focus::placeholder {
+        opacity: 1;
+      }
+
+      &:focus,
+      &:not(:placeholder-shown) {
+        width: 350px;
+        @media only screen and (max-width: 400px) {
+          width: 280px;
+        }
+      }
+    }
+  }
+}

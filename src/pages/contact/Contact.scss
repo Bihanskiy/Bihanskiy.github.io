@@ -1,3 +1,104 @@
+@import "../../styles/tools/tools";
+
 .contact-page {
-  min-height: 100vh;
+  padding-top: 110px;
+
+  .social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  $social-button-size: 64px;
+  $social-button-background: #fff;
+  $social-button-active-color: #fff;
+  $social-button-transition-time: 0.3s;
+
+  $social-button-colors: (
+    "mail": #0072c6,
+    "facebook": #3b5999,
+    "linkedin": #0077b5,
+    "telegram": #0088cc,
+    "github": #6e5494,
+    "codepen": #212121,
+    "steam": #7da10e,
+    "snapchat": #eec900,
+    "twitter": #55acee,
+    "instagram": #e4405f,
+    "npmjs": #c12127,
+  );
+
+  .social-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    width: $social-button-size;
+    height: $social-button-size;
+    text-decoration: none;
+    border-radius: 100%;
+    background: $social-button-background;
+    text-align: center;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -1px;
+      left: 50%;
+      display: block;
+      width: 0;
+      height: 0;
+      border-radius: 100%;
+      transition: $social-button-transition-time;
+    }
+
+    &:focus,
+    &:hover {
+      color: $social-button-active-color;
+
+      &::after {
+        width: calc(100% + 2px);
+        height: calc(100% + 2px);
+        margin-left: calc(-50% - 1px);
+      }
+    }
+
+    svg {
+      position: relative;
+      z-index: 1;
+      transition: $social-button-transition-time;
+    }
+
+    @each $name, $color in $social-button-colors {
+      &--#{$name} {
+        color: $color;
+
+        &::after {
+          background: $color;
+        }
+      }
+    }
+  }
+
+  .contacts {
+    padding: $section-distance 0;
+    &__box {
+      text-align: center;
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+      h6 {
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        overflow-wrap: break-word;
+      }
+    }
+  }
 }

@@ -50,44 +50,42 @@ const About = () => {
   }
 
   return (
-    <div className="wrapper">
+    <section className="about-page">
       <div className="container">
-        <section className="about-page">
-          <div className="about-page__container">
-            <div className="about-page__story story">
-              <div className="storyt__header header-story">
-                <p className="header-story__subtitle">
-                  Hi, I am Bohdan Bihanskyi
-                </p>
-                <h2 className="header-story__title">
-                  A Front-end Developer
-                </h2>
-              </div>
-              <div className="story__text">
-                <p>
-                  ... I'm able to work efficiently both individually and in a team. Due to my ingenuity and strong analytical thinking I can find simple solutions to complex problems. I am an “eternal student” so can learn new things easily. I am eager to be a highly qualified specialist and always improve my skills... To find more information
-                </p>
-              </div>
-              <div className="story__actions actions">
-                <div className="actions__works">
-                  <RoundedButton
-                    name="Download CV"
-                    handleClick={onButtonClick}
-                  />
-                </div>
-                <div></div>
-              </div>
+        <div className="about-page__container">
+          <div className="about-page__story story">
+            <div className="storyt__header header-story">
+              <p className="header-story__subtitle">
+                Hi, I am Bohdan Bihanskyi
+              </p>
+              <h2 className="header-story__title">
+                A Front-end Developer
+              </h2>
             </div>
-            <div className="about-page__photo photo-wrapper">
-              <img
-                src={AboutImg}
-                alt="Photo"
-                className="photo"
-              />
+            <div className="story__text">
+              <p>
+                ... I'm able to work efficiently both individually and in a team. Due to my ingenuity and strong analytical thinking I can find simple solutions to complex problems. I am an “eternal student” so can learn new things easily. I am eager to be a highly qualified specialist and always improve my skills... To find more information
+              </p>
+            </div>
+            <div className="story__actions actions">
+              <div className="actions__works">
+                <RoundedButton
+                  name="Download CV"
+                  handleClick={onButtonClick}
+                />
+              </div>
+              <div></div>
             </div>
           </div>
-        </section>
-        <section className="about-achievements">
+          <div className="about-page__photo photo-wrapper">
+            <img
+              src={AboutImg}
+              alt="Photo"
+              className="photo"
+            />
+          </div>
+        </div>
+        <div className="about-achievements">
           {achievements.map(achievement => {
             return (
               <React.Fragment key={achievement.tableName}>
@@ -98,9 +96,10 @@ const About = () => {
               </React.Fragment>
             )
           })}
-        </section>
+        </div>
       </div>
-    </div>
+    </section>
+
   )
 }
 

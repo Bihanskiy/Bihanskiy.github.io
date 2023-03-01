@@ -14,7 +14,9 @@ const MainLayout: FC<MainLayoutPropsType> = ({ children }) => {
     <div className="main-wrapper">
       <Header />
       <main className="main">
-        {children}
+        <div className="wrapper">
+          {children}
+        </div>
       </main>
       <Footer />
     </div>

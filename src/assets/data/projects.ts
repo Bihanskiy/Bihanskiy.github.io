@@ -9,6 +9,8 @@ import USSihipLanding from "../images/projects/usShipLanding.png";
 import RatingPro from '../images/projects/ratingPro.png';
 import YouFine from '../images/projects/FineService.png';
 import RatingProProject from '../images/projects/ratingProProject.png';
+import ReactFinanceApp from '../images/projects/react-finance-app.png';
+import FormInModal from '../images/projects/form-in-modal.png';
 
 
 const projects = [
@@ -79,6 +81,19 @@ const projects = [
   },
   {
     id: uuidv4(),
+    name: 'ReactFinanceApp',
+    title: 'React finance app',
+    type: "Freelancing platform",
+    img: ReactFinanceApp,
+    projectImg: ReactFinanceApp,
+    description: 'Marvel Service is an application where you can view Marvel characters and the comics with their participation.',
+    technologies: 'HTML, CSS, SCSS, React, Redux, Socket.io, Testing Library',
+    tools: 'Webpack, NPM, Git',
+    url: '',
+    source: 'https://github.com/Bihanskiy/finance-task',
+  },
+  {
+    id: uuidv4(),
     name: 'MarvelService',
     title: 'Marvel Service',
     type: "Freelancing platform",
@@ -128,6 +143,19 @@ const projects = [
     tools: 'Gulp, NPM, Git, Figma',
     url: 'https://bihanskiy.github.io/landing-furniture-js/',
     source: 'https://github.com/Bihanskiy/landing-furniture-js',
+  },
+  {
+    id: uuidv4(),
+    name: "FormInModal",
+    title: "Form in modal",
+    type: "Freelancing platform",
+    img: FormInModal,
+    projectImg: FormInModal,
+    description: 'This modern landing page is made of Figma layout. The possibility of usage such dynamic tools as Swiper.js and Gallery has been implemented in the project. The site is responsive as well. Interaction with the client is the main goal of the project.',
+    technologies: 'HTML, CSS, SCSS, Vanilla JS, Mustache',
+    tools: 'Gulp, NPM, Git, Figma',
+    url: 'https://bihanskiy.github.io/form-in-modal/',
+    source: 'https://github.com/Bihanskiy/form-in-modal',
   },
 ];
 

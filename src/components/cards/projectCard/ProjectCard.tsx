@@ -18,11 +18,13 @@ const projectsMap: ProjectsMapType = {
   YouFine: "YouFine-card",
   Chat: "Chat-card",
   CurrencyConverter: "CurrencyConverter-card",
+  ReactFinanceApp: "ReactFinanceApp-card",
   MarvelService: "MarvelService-card",
   USShip: "USShip-card",
   EDA: "EDA-card",
   ToDoList: "ToDoList-card",
   Furniture: "Furniture-card",
+  FormInModal: "FormInModal-card",
 }
 
 interface ProjectCardProps {

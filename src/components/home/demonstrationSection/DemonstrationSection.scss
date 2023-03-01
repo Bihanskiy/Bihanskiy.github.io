@@ -7,10 +7,11 @@
 
   &__content {
     @extend %cent;
+    padding-top: $section-distance;
 
     .content {
       &__header {
-        margin-bottom: 150px;
+        margin-bottom: 15vh;
       }
 
       &__body {

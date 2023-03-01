@@ -6,6 +6,19 @@
 
 body {
   margin: 0;
+
+  &::-webkit-scrollbar-track {
+    background-color: #ffffff;
+  }
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-color: rgba(184, 185, 188, 0.733);
+  }
 }
 
 html {
