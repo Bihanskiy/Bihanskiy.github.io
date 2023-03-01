@@ -55,9 +55,9 @@ const About = () => {
         <div className="about-page__container">
           <div className="about-page__story story">
             <div className="storyt__header header-story">
-              <p className="header-story__subtitle">
-                Hi, I am Bohdan Bihanskyi
-              </p>
+              <div className="header-story__subtitle">
+                Hi, I am <span>Bohdan Bihanskyi</span>
+              </div>
               <h2 className="header-story__title">
                 A Front-end Developer
               </h2>

@@ -11,6 +11,18 @@ import { useCustomNavigate } from "../../../hooks";
 const AboutSection = () => {
   const navigate = useCustomNavigate();
 
+  const onButtonClick = () => {
+    fetch('CV.pdf').then(response => {
+      response.blob().then(blob => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'CV.pdf';
+        alink.click();
+      })
+    })
+  }
+
   return (
     <section className="about">
       <div className="container about__container">
@@ -27,6 +39,12 @@ const AboutSection = () => {
             <p>
               I am a Front-end Developer. I'm keen on creating web interfaces and their developing. To find additional information about me and my education click through to my
             </p>
+            <button
+              className="story__action"
+              onClick={onButtonClick}
+            >
+              CV
+            </button>
           </div>
           <div className="story__actions actions">
             <div className="actions__works">

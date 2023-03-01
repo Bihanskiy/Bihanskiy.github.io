@@ -20,7 +20,7 @@ const Projects = () => {
   }
 
   const filteredProjects = useMemo(() => {
-    return projects?.filter(project => project.name.toLowerCase().includes(searchProjectText));
+    return projects?.filter(project => project.name.toLowerCase().includes(searchProjectText.toLowerCase()));
   }, [projects, searchProjectText])
 
   return (
