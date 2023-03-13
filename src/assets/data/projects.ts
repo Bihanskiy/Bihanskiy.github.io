@@ -21,7 +21,7 @@ const projects = [
     type: "Freelancing platform",
     img: RatingPro,
     projectImg: RatingProProject,
-    description: "Rating Pro - freelancing platform. Startup in Poland. Created using React at Next.js platform for server side rendering. Rating Pro allows clients to hire and work with freelancers through the company's platform. The client posts a description of their job and a price range they are willing to pay for a freelancer to complete it. The client may invite specific freelancers to apply for their jobs, or else post the job for any freelancer who is interested to apply. There is a bonus system and an affiliate program.",
+    description: "We have signed an NDA for this project. Rating Pro - freelancing platform. Startup in Poland. Created using React at Next.js platform for server side rendering. Rating Pro allows clients to hire and work with freelancers through the company's platform. The client posts a description of their job and a price range they are willing to pay for a freelancer to complete it. The client may invite specific freelancers to apply for their jobs, or else post the job for any freelancer who is interested to apply. There is a bonus system and an affiliate program.",
     technologies: 'HTML, CSS, SCSS, TypeScript, React, Next.js, Axios, Material UI',
     tools: 'Webpack, NPM, Git, Figma, Trello, Jira',
     url: '',

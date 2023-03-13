@@ -22,15 +22,27 @@ const achievements = [
     rows: [
       {
         rowName: "Technologies",
-        rowContent: ["HTML", "CSS", "SASS/SCSS", "React", "Redux", "JSON", "AJAX", "API",],
+        rowContent: ["HTML", "CSS", "SASS/SCSS", "React", "Redux", "Next", "JSON", "AJAX", "API", "Formik", "React Transition Group", "Framer Motion"],
       },
       {
         rowName: "Tools",
         rowContent: ["Webpack", "Gulp", "Git", "npm", "Photoshop", "Figma", "DevTools",],
       },
       {
+        rowName: "TaskTrackers",
+        rowContent: ["JIRA", "Trello"],
+      },
+      {
+        rowName: "CSS methodologies",
+        rowContent: ["BEM"],
+      },
+      {
+        rowName: "UI frameworks",
+        rowContent: ["Bootstrap", "Material"],
+      },
+      {
         rowName: "Languages",
-        rowContent: ["JavaScript",],
+        rowContent: ["JavaScript", "TypeScript"],
       },
     ]
   },
