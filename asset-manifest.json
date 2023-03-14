@@ -3,7 +3,7 @@
     "static/css/0.872e00c8.chunk.css": "/static/css/0.872e00c8.chunk.css",
     "static/js/0.1a2c5643.chunk.js": "/static/js/0.1a2c5643.chunk.js",
     "static/js/0.1a2c5643.chunk.js.map": "/static/js/0.1a2c5643.chunk.js.map",
-    "main.css": "/static/css/main.e8062df0.chunk.css",
+    "main.css": "/static/css/main.b357bfc1.chunk.css",
     "main.js": "/static/js/main.a843711e.chunk.js",
     "main.js.map": "/static/js/main.a843711e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a474b2f6.js",
@@ -30,7 +30,7 @@
     "static/css/5.68954f40.chunk.css.map": "/static/css/5.68954f40.chunk.css.map",
     "static/css/7.80468640.chunk.css.map": "/static/css/7.80468640.chunk.css.map",
     "static/css/8.5bbbab44.chunk.css.map": "/static/css/8.5bbbab44.chunk.css.map",
-    "static/css/main.e8062df0.chunk.css.map": "/static/css/main.e8062df0.chunk.css.map",
+    "static/css/main.b357bfc1.chunk.css.map": "/static/css/main.b357bfc1.chunk.css.map",
     "static/js/3.6b6bb089.chunk.js.LICENSE.txt": "/static/js/3.6b6bb089.chunk.js.LICENSE.txt",
     "static/media/Chat.50da6ba2.png": "/static/media/Chat.50da6ba2.png",
     "static/media/EmployeersCount.d7624dab.png": "/static/media/EmployeersCount.d7624dab.png",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.a474b2f6.js",
     "static/js/3.6b6bb089.chunk.js",
-    "static/css/main.e8062df0.chunk.css",
+    "static/css/main.b357bfc1.chunk.css",
     "static/js/main.a843711e.chunk.js"
   ]
 }
