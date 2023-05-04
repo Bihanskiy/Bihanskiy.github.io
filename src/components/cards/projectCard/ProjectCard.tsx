@@ -15,6 +15,7 @@ interface ProjectsMapType {
 
 const projectsMap: ProjectsMapType = {
   RatingPro: "RatingPro-card",
+  ExpressFinance: "ToDoList-card",
   YouFine: "YouFine-card",
   Chat: "Chat-card",
   CurrencyConverter: "CurrencyConverter-card",
@@ -24,6 +25,7 @@ const projectsMap: ProjectsMapType = {
   EDA: "EDA-card",
   ToDoList: "ToDoList-card",
   Furniture: "Furniture-card",
+  CheetahLegacy: "RatingPro-card",
   FormInModal: "FormInModal-card",
 }
 

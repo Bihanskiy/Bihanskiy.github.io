@@ -11,6 +11,8 @@ import YouFine from '../images/projects/FineService.png';
 import RatingProProject from '../images/projects/ratingProProject.png';
 import ReactFinanceApp from '../images/projects/react-finance-app.png';
 import FormInModal from '../images/projects/form-in-modal.png';
+import ExpressFinance from '../images/projects/ExpressFinance.png';
+import CheetahLegacy from '../images/projects/CheetahLegacy.png';
 
 
 const projects = [
@@ -24,7 +26,20 @@ const projects = [
     description: "We have signed an NDA for this project. Rating Pro - freelancing platform. Startup in Poland. Created using React at Next.js platform for server side rendering. Rating Pro allows clients to hire and work with freelancers through the company's platform. The client posts a description of their job and a price range they are willing to pay for a freelancer to complete it. The client may invite specific freelancers to apply for their jobs, or else post the job for any freelancer who is interested to apply. There is a bonus system and an affiliate program.",
     technologies: 'HTML, CSS, SCSS, TypeScript, React, Next.js, Axios, Material UI',
     tools: 'Webpack, NPM, Git, Figma, Trello, Jira',
-    url: '',
+    url: 'https://rating-pro-translation.vercel.app/',
+    source: '',
+  },
+  {
+    id: uuidv4(),
+    name: 'ExpressFinance',
+    title: 'Express Finance',
+    type: "Website",
+    img: ExpressFinance,
+    projectImg: ExpressFinance,
+    description: 'Anycash - your own online wallet. Using the Any.cash service, you can make exchanges and cryptocurrency conversions. There is a bonus system and an affiliate program.',
+    technologies: 'HTML, CSS, SCSS, JavaScript, Vue.js, Nuxt.js',
+    tools: 'Webpack, NPM, Git, Figma',
+    url: 'https://any.cash/',
     source: '',
   },
   {
@@ -52,6 +67,32 @@ const projects = [
     tools: 'Webpack, Galp, NPM, Git',
     url: 'https://bihanskiy.github.io/us-ship-landing/',
     source: 'https://github.com/Bihanskiy/us-ship-landing',
+  },
+  {
+    id: uuidv4(),
+    name: "Furniture",
+    title: "Furniture shop",
+    type: "Landing page",
+    img: LandingPage,
+    projectImg: LandingPage,
+    description: 'This modern landing page is made of Figma layout. The possibility of usage such dynamic tools as Swiper.js and Gallery has been implemented in the project. The site is responsive as well. Interaction with the client is the main goal of the project.',
+    technologies: 'HTML, CSS, SCSS, Vanilla JS, Mustache',
+    tools: 'Gulp, NPM, Git, Figma',
+    url: 'https://bihanskiy.github.io/landing-furniture-js/',
+    source: 'https://github.com/Bihanskiy/landing-furniture-js',
+  },
+  {
+    id: uuidv4(),
+    name: "CheetahLegacy",
+    title: "Cheetah Legacy",
+    type: "Landing page",
+    img: CheetahLegacy,
+    projectImg: CheetahLegacy,
+    description: 'Cheetah Legacy is the first NFT collection to support wildlife organizations.Indeed our goal is to stop the extinction of cheetahs, thanks to a part of the profit of this project.',
+    technologies: 'Webflow',
+    tools: 'Webflow',
+    url: 'https://cheetah-leagacy-138c39.webflow.io/',
+    source: '',
   },
   {
     id: uuidv4(),
@@ -130,19 +171,6 @@ const projects = [
     tools: 'Gulp NPM, Git',
     url: 'https://bihanskiy.github.io/todolist-vanilaJS/',
     source: 'https://github.com/Bihanskiy/todolist-vanilaJS',
-  },
-  {
-    id: uuidv4(),
-    name: "Furniture",
-    title: "Furniture shop",
-    type: "Landing page",
-    img: LandingPage,
-    projectImg: LandingPage,
-    description: 'This modern landing page is made of Figma layout. The possibility of usage such dynamic tools as Swiper.js and Gallery has been implemented in the project. The site is responsive as well. Interaction with the client is the main goal of the project.',
-    technologies: 'HTML, CSS, SCSS, Vanilla JS, Mustache',
-    tools: 'Gulp, NPM, Git, Figma',
-    url: 'https://bihanskiy.github.io/landing-furniture-js/',
-    source: 'https://github.com/Bihanskiy/landing-furniture-js',
   },
   {
     id: uuidv4(),
