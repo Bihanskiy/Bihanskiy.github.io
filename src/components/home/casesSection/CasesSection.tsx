@@ -15,19 +15,19 @@ const casesData: casesDataType[] = [
   {
     id: 1,
     name: "responsive",
-    image: "https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true",
+    image: "../responsive-design.png",
     description: "My layout fits all devices. It responses to any screen resolution; from 320px(small mobile devices) to 1920px(widescreen monitors)."
   },
   {
     id: 2,
     name: "speed",
-    image: "https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true",
+    image: "../rocket.png",
     description: "Fast loading is my main priority. I use the most updated technics for image optimization, minimization, compression, code splitting, etc."
   },
   {
     id: 3,
     name: "code quality",
-    image: "https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true",
+    image: "../clean-code.png",
     description: "Clean, scalable, structured, scalable and well organized are the main developing criteria of my code. For this purpose I use DRY Principle and the best practices for writing super readable code."
   },
 ]

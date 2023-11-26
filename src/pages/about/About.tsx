@@ -22,11 +22,11 @@ const achievements = [
     rows: [
       {
         rowName: "Technologies",
-        rowContent: ["HTML", "CSS", "SASS/SCSS", "React", "Redux", "Next", "NodeJS(beginner)", "JSON", "AJAX", "API", "Formik", "React Transition Group", "Framer Motion"],
+        rowContent: ["HTML", "CSS", "SASS/SCSS", "React", "Redux", "Next", "NodeJS(beginner)", "JSON", "AJAX", "API", "React Query", "Storybook", "Formik", "React Transition Group", "Framer Motion"],
       },
       {
         rowName: "Tools",
-        rowContent: ["Storybook", "Webpack", "Gulp", "Git", "npm", "Photoshop", "Figma", "DevTools",],
+        rowContent: ["Webpack", "Gulp", "Git", "npm", "Photoshop", "Figma", "DevTools",],
       },
       {
         rowName: "TaskTrackers",
@@ -49,17 +49,6 @@ const achievements = [
 ]
 
 const About = () => {
-  const onButtonClick = () => {
-    fetch('CV.pdf').then(response => {
-      response.blob().then(blob => {
-        const fileURL = window.URL.createObjectURL(blob);
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = 'CV.pdf';
-        alink.click();
-      })
-    })
-  }
 
   return (
     <section className="about-page">
@@ -81,10 +70,11 @@ const About = () => {
             </div>
             <div className="story__actions actions">
               <div className="actions__works">
-                <RoundedButton
-                  name="Download CV"
-                  handleClick={onButtonClick}
-                />
+                <a href={"../CV.pdf"} rel="noopener noreferrer" target="_blank">
+                  <RoundedButton
+                    name="View CV"
+                  />
+                </a>
               </div>
               <div></div>
             </div>

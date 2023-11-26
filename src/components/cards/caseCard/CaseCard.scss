@@ -29,6 +29,10 @@
 .card .face.face1 .content {
   opacity: 0.2;
   transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .card:hover .face.face1 .content {
@@ -36,11 +40,11 @@
 }
 
 .card .face.face1 .content img {
-  max-width: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .card .face.face1 .content h3 {
-  margin: 10px 0 0;
   padding: 0;
   color: #fff;
   text-align: center;
